@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+text, b{
+    color: white;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.info{
+    font-size: 14px;
+}
+.title{
+    font-size: 25px;
+}
+.subtitle:hover{
+    opacity: 75%;
+    border-bottom: 1px white solid;
+}
+div{
+    border: 3px white solid;
+    text-align: center;
+    margin: 3px;
+    height: 0%;
+}
+.subtopic{
+    border: none;
+    text-align: left;
+}
+input, button, select, textarea{
+    background-color: transparent;
+    border: 1px white solid;
+    color: white
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+    border: 5px wheat solid;
+}
+.add_atr{
+    max-width: 20px;
+    max-height: 20px;
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+.dice_button{
+    max-width: 60px;
+    max-height: 20px;
+    width: 100%;
+    height: 100%;
+}
+.history_box{
+    margin-top: 5px;
+    margin: 3px;
+    resize: none;
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+}
+option{
+    background: black;
+}
+.writezone{
+    border: none;
+    border-bottom: 1px white solid;
+    width: 60%;
+    margin: 6px;
+}#armor, #modifier, #repeat{width: 35%;}
+.viewer{
+    width: 10%;
+    margin: 6px;
+    text-align: center;
+}
+
+/*organizar divs*/
+.pai{
+    max-width: 100%;
+    width: 98%;
+}
+.character_section{
+    width: 20%;
+    max-height: 0px;
+}
+.header{
+    width: 50%;
+    margin-left: 20%;
+    margin-top: -2px;
+    max-height: 0px;
+}
+.token{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -3px;
+    max-height: 0px;
+}
+.history{
+    width: 30%;
+    margin-top: 555px;
+    margin-left: 70%;
+    max-height: 200px;
+    height: 100%;
+}
